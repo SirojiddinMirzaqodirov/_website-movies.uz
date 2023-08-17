@@ -1,12 +1,10 @@
-.search-panel{
+.movie-add-form{
     background-color: burlywood;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 4px;
     margin-top: 1.5rem;
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.20);
 }
-.search-input{
-    padding: 0.7rem;
-    border-radius: 4px;
-    margin-right: 5px;
+.new-post-label{
+   margin-right: 5px;
 }

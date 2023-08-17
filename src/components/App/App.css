@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-.App{
-    text-align: center;
+.app{
+    height: 100vh;
+    color: #000; 
+}
+.content{
+    max-width: 1000px;
+    box-flex-group: #fff;
+    margin: 0 auto;
+    padding: 3rem 0;
 }
