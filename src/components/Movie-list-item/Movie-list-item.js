@@ -2,11 +2,11 @@ import React from "react";
 import "./Movie-list-item.css";
 
 
-const MovieListItem = () => {
+const MovieListItem = ({name, viewers}) => {
     return(
         <li className="list-group-item d-flex justify-content-between">
-            <span className="list-group-item-label">Avengers-1</span>
-            <input type="number" className="list-group-item-input" defaultValue={989} />
+            <span className="list-group-item-label">{name}</span>
+            <input type="number" className="list-group-item-input" defaultValue={viewers} />
             <div className="d-flex justify-content-center align-items-center">
                 <button type="button" className="btn-heart btn-sm">
                     <i className="fa-regular fa-heart"></i>
